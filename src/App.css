@@ -1,6 +1,24 @@
 html {
   box-sizing: border-box;
+
+  background-image: url("./Images/3.jpg");
+  /* background-color: blueviolet; */
+   /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+  background-attachment: fixed;
 }
+
+div {
+  color: floralwhite;
+  font-family: "Raleway", sans-serif;
+}
+  
 
 *, *::before, *::after {
   box-sizing: inherit;
@@ -17,7 +35,7 @@ html {
 nav ul {
   list-style: none;
   display: flex;
-  background-color: black;
+  background-color: transparent;
   margin-bottom: 20px;
 }
 
