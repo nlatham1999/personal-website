@@ -18,6 +18,7 @@ body {
   font-family: "Raleway", sans-serif;
   position: absolute;
   overflow: auto;
+  margin-right: 5%;
   scroll-snap-type: y mandatory;
 }
 
