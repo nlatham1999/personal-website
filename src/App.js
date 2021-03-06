@@ -9,17 +9,19 @@ import {Navbar, Col, Container, Row, Nav} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-const App = () => (
+const App = () => {
+  return (
   <div>
     <Navigation />
     <Main />
   </div>
-);
+  );
+}
 
 const NavItemStyles = {
   color: "floralwhite",
   marginRight: "4%",
-  fontSize: "2vw"
+  fontSize: "3vmin"
 
 }
 

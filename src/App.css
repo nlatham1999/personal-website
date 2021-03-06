@@ -23,19 +23,19 @@ body {
 
 a:link{
   color: floralwhite;
-  font-size: 1.6vw;
+  font-size: 2.6vmin;
 }
 
 h {
-  font-size: 1.8vw;
+  font-size: 2.8vmin;
 }
 
 p {
-  font-size: 1.6vw;
+  font-size: 2.6vmin;
 }
 
 li {
-  font-size: 1.6vw;
+  font-size: 2.6vmin;
 }
 
 .current {
