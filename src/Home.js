@@ -1,12 +1,15 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 const Home = () => {
   
   return (
-    <div className='home'>
-      <h1>Welcome to my portfolio website</h1>
+    <Container style={{margin: "5%"}}>
+    <div className='content'>
+      <h>Welcome to my portfolio website</h>
       <p> Feel free to browse around and learn more about me.</p>
     </div>
+    </Container>
   );
 }
 
