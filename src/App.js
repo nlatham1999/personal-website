@@ -22,12 +22,19 @@ const NavItemStyles = {
   color: "floralwhite",
   marginRight: "4%",
   fontSize: "3vmin"
+}
 
+const NavItemStyles2 = {
+  color: "floralwhite",
+  marginRight: "4%",
+  fontSize: "3vmin",
+  border: "1px solid floralwhite",
+  paddingLeft: "2%"
 }
 
 const Navigation = () => (
     <Navbar style={{ marginLeft: "5%", marginRight: "5%", backgroundColor: "transparent", borderBottom: "1px solid floralwhite"}}>
-      <Navbar.Text style={NavItemStyles}>Nick Latham</Navbar.Text>
+      <Navbar.Text style={NavItemStyles2}>Nick Latham</Navbar.Text>
       <Container>
         <Row xs={4} md={4}>
           <Col>

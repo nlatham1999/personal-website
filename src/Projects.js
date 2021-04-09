@@ -16,6 +16,7 @@ const Projects = () => {
                 <li><a href="https://nlatham1999.github.io/StockDataInterface/">Yahoo Finance API</a> - an API to collect historical stock data from Yahoo Finance</li>
                 <li><a href="https://github.com/nlatham1999/PrimeNumberSieve">Prime Number Sieve</a> - a more efficient prime number sieve based off of the Sieve of Eratosthenes</li>
                 <li><a href="https://github.com/nlatham1999/CPSC315-Final-Project">Into The Dungeon</a> - This is my final project for iOS app development and is a card/dungeon crawler game</li>
+                <li><a href="https://skiweather.app">Ski Weather App</a> - a web app that displays the weather for different ski resorts. Made following Neumorphic design styles</li>
             </ul>
         </div>
     </Container>

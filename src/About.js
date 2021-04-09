@@ -1,7 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Container } from 'react-bootstrap';
+import axios from "axios";
 
 const About = () => {
+
+    getPlaylists();
+
+
     return (
         <Container style={{margin: "5%"}}>
         <div className='content'>
@@ -20,6 +25,22 @@ const About = () => {
         </div>
         </Container>
     );
+
+    function getPlaylists(){
+        axios.get({
+            method: "get",
+            url: "https://api.spotify.com/v1/albums/3OkqAak6KhIQExElXif7UW",
+            headers: {
+                // 'Authorization': 'Basic d36520fea5cf4279b122755f34f7ad26:684e4b6a31354995af891d362abd3c19',
+                'Authorization' : 'Bearer BQBguss_2tIE9yx-qKY75uf446GRvz8iQ_vfc3aNMaF0cCzZjSr4djSc1Iy-9S_Ryx25a4qe9cnIUPB5yPMya-r5Hi4BBhEL8CJzPqHdwxO8izVc_1XSMraDc70n2QCgOJWtsI7tSutGZUkDRoI2G59Dhw',
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            console.log(response.data);
+        })
+    }
 }
 
 export default About;
