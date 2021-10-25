@@ -21,28 +21,32 @@ const App = () => {
 const NavItemStyles = {
   color: "floralwhite",
   marginRight: "4%",
-  fontSize: "3vmin"
+  fontSize: "3.2vmin"
 }
 
 const NavItemStyles2 = {
   color: "floralwhite",
   marginRight: "4%",
-  fontSize: "3vmin",
+  fontSize: "3.2vmin",
   border: "1px solid floralwhite",
-  paddingLeft: "2%"
+  paddingLeft: "1.3vh",
+  paddingRight: "1.3vh",
+  paddingTop: "1vh",
+  paddingBottom: "1vh",
+
 }
 
 const Navigation = () => (
     <Navbar style={{ marginLeft: "5%", marginRight: "5%", backgroundColor: "transparent", borderBottom: "1px solid floralwhite"}}>
-      <Navbar.Text style={NavItemStyles2}>Nick Latham</Navbar.Text>
+      <Navbar.Brand style={NavItemStyles2}>Nick<br/>Latham</Navbar.Brand>
       <Container>
-        <Row xs={4} md={4}>
+        <Row>
           <Col>
-            <NavLink style={NavItemStyles} to='/'>Home</NavLink>
+            <NavLink style={NavItemStyles} to='/'>About&nbsp;Me</NavLink>
           </Col>
-          <Col>
+          {/* <Col>
             <NavLink style={NavItemStyles} to='/about'>About</NavLink>
-          </Col>
+          </Col> */}
           <Col>
             <NavLink style={NavItemStyles} to='/projects'>Projects</NavLink>
           </Col>
@@ -56,10 +60,11 @@ const Navigation = () => (
 
 const Main = () => (
   <Switch>
-    <Route exact path='/' component={Home}></Route>
-    <Route exact path='/about' component={About}></Route>
+    <Route exact path='/' component={About}></Route>
+    {/* <Route exact path='/about' component={About}></Route> */}
     <Route exact path='/contact' component={Contact}></Route>
     <Route exact path='/projects' component={Projects}></Route>
+    <Route exact path='/about' component={Projects}></Route>
   </Switch>
 );
 
