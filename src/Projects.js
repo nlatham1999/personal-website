@@ -6,11 +6,12 @@ const Projects = () => {
   return (
       
     <Container style={{marginLeft: "5%", marginRight: "5%", marginTop: "1%"}}>
+
         <div className='content'>
             <h>Projects</h>
             <p>Below are a few of my projects. For more projects and source code, take a look at my <a href="https://github.com/nlatham1999">Github</a></p>
             <ul>
-                <li><a href="https://videoshare.app">Video Share Web App</a> A web app for uploading and sharing media across devices. 
+                <li><a href="https://videoshare.app">Video Share Web App</a> - A web app for uploading and sharing media across devices. 
                 I made this as a way to gain a better understanding of Go, and also, because it seemed like a cool project idea and I like playing around with React. 
                 The backend is Heroku+Go and the frontend is Amplify+React. For storage I used MongoDB to store metadata and S3 to store the actual files. You can check out my source code for the fronted <a href="https://github.com/nlatham1999/video-share-frontend">here</a> and the source code for the backend <a href="https://github.com/nlatham1999/video-share">here</a>.</li>
                 <li><a href="https://wildfire-analysis-2021.herokuapp.com/">Washington Wildfire Predictor</a> - This was my final project for Data Science Algorithms. It uses the WA DNR wildfire data to predict the size of wildfires in Washington State. The GitHub repo is located <a href="https://github.com/nlatham1999/CPSC322Project-WildfireAnalysis">here</a></li>
@@ -26,7 +27,7 @@ const Projects = () => {
             <h>Publications</h>
             <p>Below are my publications. There's only one at the moment but there might be more in the future</p>
             <ul>
-                <li><a href="https://medium.com/geekculture/full-stack-application-with-go-gin-react-and-mongodb-37b63ef71133">Gin+React+MongoDB tutorial</a>When I was learning Go, I couldn't find a comprehensive tutorial for using MongoDB with Gin that was up to date and so I decided to make my own. I also threw in a React frontend to make it more comprehensive</li>
+                <li><a href="https://medium.com/geekculture/full-stack-application-with-go-gin-react-and-mongodb-37b63ef71133">Gin+React+MongoDB tutorial</a> - When I was learning Go, I couldn't find a comprehensive tutorial for using MongoDB with Gin that was up to date and so I decided to make my own. I also threw in a React frontend to make it more comprehensive</li>
             </ul>
         </div>
     </Container>
