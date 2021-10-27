@@ -5,7 +5,7 @@ import axios from "axios";
 const About = () => {
 
     return (
-        <Container style={{margin: "5%"}}>
+        <Container style={{marginLeft: "1vw", marginRight: "1vw", marginTop: "1vw"}}>
         <div className='content'>
             <h>About Me</h>
             <p>Hi, name is Nick Latham and I am from Post Falls, Idaho. In the spring of 2021, I graduated Gonzaga 

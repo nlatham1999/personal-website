@@ -5,7 +5,7 @@ const Projects = () => {
   
   return (
       
-    <Container style={{marginLeft: "5%", marginRight: "5%", marginTop: "1%"}}>
+    <Container style={{marginLeft: "1vw", marginRight: "1vw", marginTop: "1vw"}}>
 
         <div className='content'>
             <h>Projects</h>

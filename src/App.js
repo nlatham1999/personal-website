@@ -20,14 +20,14 @@ const App = () => {
 
 const NavItemStyles = {
   color: "floralwhite",
-  marginRight: "4%",
-  fontSize: "3.2vmin"
+  fontSize: "3vh",
+  textDecorationLine: "none"
 }
 
 const NavItemStyles2 = {
   color: "floralwhite",
   marginRight: "4%",
-  fontSize: "3.2vmin",
+  fontSize: "3vh",
   border: "1px solid floralwhite",
   paddingLeft: "1.3vh",
   paddingRight: "1.3vh",
@@ -37,8 +37,13 @@ const NavItemStyles2 = {
 }
 
 const Navigation = () => (
-    <Navbar style={{ marginLeft: "5%", marginRight: "5%", backgroundColor: "transparent", borderBottom: "1px solid floralwhite"}}>
-      <Navbar.Brand style={NavItemStyles2}>Nick<br/>Latham</Navbar.Brand>
+    <Navbar style={{marginLeft: "1vw", marginRight: "1vw", backgroundColor: "transparent", borderBottom: "1px solid floralwhite"}}>
+      {window.innerWidth < window.innerHeight && 
+        <Navbar.Text style={NavItemStyles2}>NL</Navbar.Text>
+      }
+      {window.innerWidth >= window.innerHeight && 
+        <Navbar.Text style={NavItemStyles2}>Nick<br/>Latham</Navbar.Text>
+      }
       <Container>
         <Row>
           <Col>

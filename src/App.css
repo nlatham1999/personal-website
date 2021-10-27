@@ -30,21 +30,34 @@ body {
     display: none;
 }
 
+a {
+  color: floralwhite;
+}
+
 a:link{
   color: floralwhite;
-  font-size: 2.6vmin;
+  font-size: 2.8vh;
+  text-decoration-line: underline;
+}
+
+a:hover{
+  color:darkslategray;
+}
+
+a:visited{
+  color:floralwhite;
 }
 
 h {
-  font-size: 3.2vmin;
+  font-size: 3vh;
 }
 
 p {
-  font-size: 2.8vmin;
+  font-size: 2.8vh;
 }
 
 li {
-  font-size: 2.8vmin;
+  font-size: 2.8vh;
 }
 
 .current {
