@@ -11,6 +11,7 @@ const Projects = () => {
             <h>Projects</h>
             <p>Below are a few of my projects. For more projects and source code, take a look at my <a href="https://github.com/nlatham1999">Github</a></p>
             <ul>
+                <li><a href="https://anniversaryreminder.netlify.app/">Anniversary Reminder</a> - A fun little web app I made for rembering you and your S.O.'s important anniversaries. Made with AngularJS and hosted on Netlify</li>
                 <li><a href="https://videoshare.app">Video Share Web App</a> - A web app for uploading and sharing media across devices. 
                 I made this as a way to gain a better understanding of Go, and also, because it seemed like a cool project idea and I like playing around with React. 
                 The backend is Heroku+Go and the frontend is Amplify+React. For storage I used MongoDB to store metadata and S3 to store the actual files. You can check out my source code for the fronted <a href="https://github.com/nlatham1999/video-share-frontend">here</a> and the source code for the backend <a href="https://github.com/nlatham1999/video-share">here</a>.</li>
