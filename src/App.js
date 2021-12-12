@@ -20,7 +20,7 @@ const App = () => {
 
 const NavItemStyles = {
   color: "floralwhite",
-  fontSize: "3vh",
+  fontSize: "2.7vh",
   textDecorationLine: "none"
 }
 
