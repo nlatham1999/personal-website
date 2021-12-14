@@ -47,13 +47,13 @@ const Navigation = () => (
       }
       <Container>
         <Row>
-          <Col>
+          <Col className='navCol'>
             <NavLink style={NavItemStyles} to='/'>About</NavLink>
           </Col>
-          <Col>
+          <Col className='navCol'>
             <NavLink style={NavItemStyles} to='/projects'>Projects</NavLink>
           </Col>
-          <Col>
+          <Col className='navCol'>
             <NavLink style={NavItemStyles} to='/contact'>Contact</NavLink>
           </Col>
         </Row>

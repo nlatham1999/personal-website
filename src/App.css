@@ -63,3 +63,8 @@ li {
 .current {
   border-bottom: 4px solid white;
 } 
+
+.navCol {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
