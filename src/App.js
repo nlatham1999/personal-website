@@ -21,13 +21,14 @@ const App = () => {
 const NavItemStyles = {
   color: "floralwhite",
   fontSize: "3vh",
-  textDecorationLine: "none"
+  textDecorationLine: "none",
+  marginRight: 0
 }
 
 const NavItemStyles2 = {
   color: "floralwhite",
   marginRight: "4%",
-  fontSize: "3vh",
+  fontSize: "2.7vh",
   border: "1px solid floralwhite",
   paddingLeft: "1.3vh",
   paddingRight: "1.3vh",

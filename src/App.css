@@ -19,7 +19,7 @@ body {
   position: absolute;
   max-height: 80vh;
   overflow-y: scroll;
-  margin-right: 5%;
+  margin-right: 1vw;
   /* scroll-snap-type: y mandatory; */
   -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
