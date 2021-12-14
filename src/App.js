@@ -20,7 +20,7 @@ const App = () => {
 
 const NavItemStyles = {
   color: "floralwhite",
-  fontSize: "2.4vh",
+  fontSize: "3vh",
   textDecorationLine: "none"
 }
 
@@ -47,11 +47,8 @@ const Navigation = () => (
       <Container>
         <Row>
           <Col>
-            <NavLink style={NavItemStyles} to='/'>About&nbsp;Me</NavLink>
+            <NavLink style={NavItemStyles} to='/'>About</NavLink>
           </Col>
-          {/* <Col>
-            <NavLink style={NavItemStyles} to='/about'>About</NavLink>
-          </Col> */}
           <Col>
             <NavLink style={NavItemStyles} to='/projects'>Projects</NavLink>
           </Col>
