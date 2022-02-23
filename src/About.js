@@ -7,7 +7,6 @@ const About = () => {
     return (
         <Container style={{marginLeft: "1vw", marginRight: "1vw", marginTop: "1vw"}}>
         <div className='content'>
-            <p>Current status: Working my way through <a href="https://adventofcode.com/">Advent Of Code</a> and <a href="https://en.wikipedia.org/wiki/G%C3%B6del%2C_Escher%2C_Bach">Gödel, Escher, Bach</a>, and creating cool stuff</p>
             <h>About Me</h>
             <p>Hi, name is Nick Latham and I am from Post Falls, Idaho. In the spring of 2021, I graduated Gonzaga 
                 University with a Bachelor of Science degree. I majored in Computer Science and a minored in Mathematics.</p>
