@@ -9,7 +9,7 @@ const About = () => {
         <div className='content'>
             <h>About Me</h>
             <p>Hi, name is Nick Latham and I am from Post Falls, Idaho. In the spring of 2021, I graduated Gonzaga 
-                University with a Bachelor of Science degree. I majored in Computer Science and a minored in Mathematics.</p>
+                University with a Bachelor of Science degree. I majored in Computer Science and minored in Mathematics.</p>
             <p>Since June 2021 I have been working as a software developer with FAST Enterprises</p>
             <p>Before that, during the 2020 summer, I interned at Chief Architect Software</p>
             <p> In my free time, I love to hike and run. During the winter, I also love to ski.</p>
