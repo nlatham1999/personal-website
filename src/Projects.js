@@ -11,6 +11,7 @@ const Projects = () => {
             <h>Projects</h>
             <p>Below are a few of my projects. For more projects and source code, take a look at my <a href="https://github.com/nlatham1999">Github</a></p>
             <ul>
+                <li><a href="https://monstermaze.io/">Monster Maze</a> - A 2D platform game built using flutter</li>
                 <li><a href="https://encryptedposting.herokuapp.com/">Encrypted Messaging API</a> - An API where you can post encrypted messages and anyone can view them with the passcode. Made with Ruby, MongoDB, and React and hosted on Heroku. Uses PKCS5 for encrypting messages and ECDSA for authenticating the message poster</li>
                 <li><a href="https://anniversaryreminder.netlify.app/">Anniversary Reminder</a> - A fun little web app I made for rembering you and your S.O.'s important anniversaries. Made with AngularJS and hosted on Netlify</li>
                 <li><a href="https://videoshare.app">Video Share Web App</a> - A web app for uploading and sharing media across devices. 
