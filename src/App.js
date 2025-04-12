@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
 import { NavLink, Switch, Route } from 'react-router-dom';
-import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
-import {Navbar, Col, Container, Row, Nav} from "react-bootstrap";
+import {Navbar, Col, Container, Row} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

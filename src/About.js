@@ -1,6 +1,5 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import { Container } from 'react-bootstrap';
-import axios from "axios";
 
 const About = () => {
 
