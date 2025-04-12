@@ -9,8 +9,10 @@ const Projects = () => {
 
         <div className='content'>
             <h>Projects</h>
+            <p>Currently my passion project is GoAgent, an Agent Based Modelling library written in go. You can check out my progress and demo it <a href="https://github.com/nlatham1999/go-agent">here</a></p>
             <p>Below are a few of my projects. For more projects and source code, take a look at my <a href="https://github.com/nlatham1999">Github</a></p>
             <ul>
+                <li><a href="https://soothsayer.ai/">soothsayer.ai</a> - An AI fortune teller. Deployed on fly.io. <a href="https://github.com/nlatham1999/aiapp">repo</a></li>
                 <li><a href="https://monstermaze.io/">Monster Maze</a> - A 2D platform game built using flutter</li>
                 <li><a href="https://encryptedposting.herokuapp.com/">Encrypted Messaging API</a> - An API where you can post encrypted messages and anyone can view them with the passcode. Made with Ruby, MongoDB, and React and hosted on Heroku. Uses PKCS5 for encrypting messages and ECDSA for authenticating the message poster</li>
                 <li><a href="https://anniversaryreminder.netlify.app/">Anniversary Reminder</a> - A fun little web app I made for rembering you and your S.O.'s important anniversaries. Made with AngularJS and hosted on Netlify</li>
@@ -21,8 +23,6 @@ const Projects = () => {
                 <li><a href="https://skiweather.app">Ski Weather App</a> - a web app that displays the weather for different ski resorts. Made following Neumorphic design styles</li>
                 <li><a href="https://gonzagatours.app/">Gonzaga Walking Tours</a> - This was my project for Senior Design. The goal of the project was to create a walking tour application for Gonzaga University and consisted of an Admin Panel to create tours, a mobile app to view tours, and a backend database to store the tours. 
                 The GitHub repos for each component are located <a href="https://github.com/nlatham1999/guwt-mobile-app">here</a>, <a href="https://github.com/michaelpeterswa/guwt-admin-panel">here</a>, and <a href="https://github.com/michaelpeterswa/guwt-admin-panel-backend">here</a> </li>
-                <li><a href="https://github.com/nlatham1999/CPSC315-Final-Project">Into The Dungeon</a> - This is my final project for iOS app development and is a card/dungeon crawler game</li>
-                <li><a href="https://github.com/nlatham1999/PrimeNumberSieve">Prime Number Sieve</a> - a more efficient prime number sieve based off of the Sieve of Eratosthenes</li>
                 <li><a href="https://nlatham1999.github.io/StockDataInterface/">Yahoo Finance API</a> - an API to collect historical stock data from Yahoo Finance</li>
                 <li><a href="https://play.google.com/store/apps/details?id=app.level.compass">Compass and level</a> - A simple compass and level android app</li>
                 <li><a href="https://github.com/nlatham1999/Prims-Algorithm">Prim's Algorithm</a> - This is an implementation of Prims Algorithm I made using processing. It is a pretty basic project but it was my first extracurricular project so it's on here for sentimental reasons</li>
